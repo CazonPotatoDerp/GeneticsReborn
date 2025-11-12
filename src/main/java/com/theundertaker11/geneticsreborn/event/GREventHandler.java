@@ -33,7 +33,7 @@ public class GREventHandler {
 		MinecraftForge.EVENT_BUS.register(new OnRightClick());
 		MinecraftForge.EVENT_BUS.register(new OnEntityHurt());
 		MinecraftForge.EVENT_BUS.register(new DeathRelatedEvents());
-		MinecraftForge.EVENT_BUS.register(new AIChangeEvents());
+		//MinecraftForge.EVENT_BUS.register(new AIChangeEvents());
 		MinecraftForge.EVENT_BUS.register(new PlayerTickEvent());
 		MinecraftForge.EVENT_BUS.register(new GRPotions());
 	}
