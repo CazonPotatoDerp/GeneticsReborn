@@ -38,7 +38,7 @@ public class AIChangeEvents {
 		}
 
 		if (e instanceof EntityCreeper) attachScareTask(event, (EntityCreature) event.getEntity(), this::hasCreeperGene);
-		if (e instanceof EntityZombie) attachScareTask(event, (EntityCreature) event.getEntity(), this::hasZombieGene);
+		//if (e instanceof EntityZombie) attachScareTask(event, (EntityCreature) event.getEntity(), this::hasZombieGene);
 		if (e instanceof EntitySkeleton) attachScareTask(event, (EntityCreature) event.getEntity(), this::hasSkeletonGene);
 		if (e instanceof EntitySpider) attachScareTask(event, (EntityCreature) event.getEntity(), this::hasSpiderGene);
 	}
